@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+.Header{
+ display: flex;
+ height: 150px;
+}
+.haut{
+    width: 740px;
+    height: 10px;
+    background-color: rgb(237, 35, 35);
+    margin-left: 200px;
+}
+.Design_fabrikant H1{
+    
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:130px ;
+    margin-left: 200px;
+}
+.bas{
+    width: 740px;
+    height: 10px;
+    background-color: rgb(23, 77, 179);
+    margin-left: 200px;
+
+}
+
+/*...................container.........*/
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 150px;
+    margin-left: 15px;
+}
+@media all and (max-width: 550px) {
+    .logo img{
+        width: 150px;
+    }
+
+
+    .Design_fabrikant{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+
+    .haut{
+        width: 300px;
+        height: 10px;
+        background-color: rgb(237, 35, 35);
+        margin-left: 2px;
+    }
+    .Design_fabrikant H1{
+        
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size:37px ;
+        margin-left: 5px;
+    }
+    .bas{
+        width: 300px;
+        height: 10px;
+        background-color: rgb(23, 77, 179);
+        margin-left: 2px;
+    
+    }
+    .produits p{
+
+        color: brown;
+        position: relative;
+        font-style: italic;
+
+    }
+    
+    
+}
